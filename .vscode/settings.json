@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Fullstack"
+    "liveServer.settings.multiRootWorkspaceName": "Fullstack",
+    "livePreview.defaultPreviewPath": "/project2/visit.html"
 }

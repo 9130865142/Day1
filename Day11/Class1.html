@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html  class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talwind Practics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="  flex backdrop-blur  w-full h-16 bg-black items-center justify-between   shadow-lg  py-4 px-8">
+      <img src="../Day11/logo.png" width="40px"  height="40px"  alt=""/>
+      <nav>
+        <ul class="flex gap-3 text-white">
+            <li>
+             <a href="#home">Home</a>   
+            </li>
+            <li>
+                <a href="#about">About</a> 
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+    </header>
+    <main class=" w-100vh mt-8 ml-8 ">
+        <h1 class=" w-[600px] leading-[100%] text-[61px]">Welcome to our website</h1>
+       
+        <a href="#about">
+            <button
+                   class=" mt-8 w-[100px] h-[40px] bg-white text-black rounded-lg hover:bg-black hover:text-white shadow-md border border-black transition duration-300">
+                   About
+                </button>
+        </a>
+    </main>
+    <section
+          id="about"
+            class=" w-100vh mt-8 ml-8 flex items-center gap-8">
+            <img src="../Day8/images/cat2.avif" class="rounded-[50%] w-[300px] h-[300px]" alt="" />
+           <div>
+            <h1 class="text-[50px] mb-[34px]">About Us</h1>
+            <p class="w-[1000px] ml-4 text-[18px] leading-[30px]">
+                Cats (Felis catus) are small, domesticated carnivorous mammals known for their companionship, hunting skills, and unique behaviors.
+General Characteristics
+Physical Traits: Domestic cats typically weigh between 6 to 15 pounds (2.7 to 7 kg) and stand about 8 to 10 inches (20 to 25 cm) tall at the shoulder. They have retractable claws, sharp teeth, and acute senses, particularly in low light, which makes them excellent hunters. 
+2
+Behavior: Cats are known for their playful and curious nature. They communicate through a variety of vocalizations, including meowing, purring, and hissing, as well as through body language. Cats are also solitary hunters but can be social animals, forming bonds with humans and other pets. 
+
+            </p>
+           </div> 
+        </section>
+        <section id="services" class=" py-[120px] px-[80px]">
+
+            <h1 class="text-[50px] mb-[34px]">Our Services</h1>
+            <div class="flex gap-[40px]">
+                <div
+                    class="w-[25%] p-[20px] shadow-md rounded-[13px] hover:shadow-2xl transition-all">
+                    <h1 class="text-[24px] mb-[12px]">Cat Grooming</h1>
+                    <p>
+                         Cat Grooming: We offer professional grooming services to keep your cat looking and feeling their best.
+                    </p>
+                </div>
+                <div
+                    class="w-[25%] p-[20px] shadow-md rounded-[13px] hover:shadow-2xl transition-all">
+                    <h1 class="text-[24px] mb-[12px]">Cat Boarding</h1>
+                    <p>
+                         Cat Boarding: Our comfortable boarding facilities provide a safe and loving environment for your cat while you're away.
+                    </p>
+            </div>
+                <div
+                    class="w-[25%] p-[20px] shadow-md rounded-[13px] hover:shadow-2xl transition-all">
+                    <h1 class="text-[24px] mb-[12px]">Veterinary Care</h1>
+                    <p>
+                         Veterinary Care: Our experienced veterinarians provide comprehensive healthcare services for your feline friend.
+                    </p>
+                </div>
+                <div
+                    class="w-[25%] p-[20px] shadow-md rounded-[13px] hover:shadow-2xl transition-all">
+                    <h1 class="text-[24px] mb-[12px]">Pet Sitting</h1>
+                    <p>
+                         Pet Sitting: We provide reliable pet sitting services to ensure your cat is well cared for when you're away.
+                    </p>
+                </div>
+                <div
+                    class="w-[25%] p-[20px] shadow-md rounded-[13px] hover:shadow-2xl transition-all">
+                    <h1 class="text-[24px] mb-[12px]">Adoption Services</h1>
+                    <p>
+                         Adoption Services: We help connect loving homes with cats in need of adoption.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+          <section id="contact" class=" ml-[80px]   ">
+            <form action="">
+            <h1 class="text-[50px] text-center mb-[34px] ">Contact Us</h1> 
+            <div class="flex-col gap-4 mb-4 flex flex-col items-center">
+                <input type="text" 
+               class="border border-black rounded-lg  w-[400px] mb-4  text-[18px] text-center h-[40px]  "
+               name="First Name"
+                placeholder="Enter Your First Name"
+                id=""
+           
+            />
+            <input type="email"
+               class="border border-black rounded-lg  w-[400px] mb-4  text-[18px] text-center h-[40px]"
+               name="Email"
+                placeholder="Enter Your Email"
+                id=""
+            />
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Your Message" class="border border-black rounded-lg  w-[400px] mb-4  text-[18px] text-center h-[40px]"></textarea>
+            <button type="submit" class="border border-black rounded-lg  w-[400px] mb-4  text-[18px] text-center h-[40px]">Submit</button>
+            </form>
+            </section>
+            <footer class=" bg-gray-400  flex justify-between ">
+            <p class="w-[100px] ml-20"> Nagpur, Maharashtra, India </p>
+            <div class="mr-40">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Google</li>
+                    <li>Whatsapp</li>
+                </ul>
+            </div>
+            <div class=" flex-col items-center mr-60">
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>FAQs</p>
+            </div>
+
+        </body>
+</html>
